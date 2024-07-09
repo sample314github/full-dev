@@ -24,6 +24,6 @@ app.listen(port, (err) => {
   if (err) {
     console.log("Er:", err);
   } else {
-    console.log("Server is running on port", port);
+    console.log("Serv rg on port", port);
   }
 });
