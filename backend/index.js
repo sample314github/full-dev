@@ -8,7 +8,7 @@ app.use(cors());
 app.get('/api/jokes', (req, res) => {
   try {
     const jokes = [
-      { id: 1, title: "LockManr", content: "hdh" },
+      { id: 1, title: "LockManr", content: "h" },
       { id: 2, title: "Locnr", content: "hdedh" },
     ];
     res.send(jokes);
