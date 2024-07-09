@@ -22,7 +22,7 @@ const port = process.env.PORT || 3909;
 
 app.listen(port, (err) => {
   if (err) {
-    console.log("Error starting server:", err);
+    console.log("Er:", err);
   } else {
     console.log("Server is running on port", port);
   }
