@@ -14,7 +14,7 @@ app.get('/api/jokes', (req, res) => {
     res.send(jokes);
   } catch (error) {
     console.error("Error fetching jokes:", error);
-    res.status(500).send("Internal Server Error");
+    res.status(500).send("Internal  Error");
   }
 });
 
